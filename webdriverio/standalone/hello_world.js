@@ -14,7 +14,7 @@ client.init()
     .click('#search_button_homepage')
     .getTitle().then(function(title) {
         var date = new Date();
-        var msg = date.toLocaleString() + ' Title is: ' + title;
+        var msg = date.toLocaleString() + ' Title is: ' + title + '\n';
         console.log(msg);
         fs.writeFile('hello_world.log', msg);
     })
