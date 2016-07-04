@@ -1,0 +1,11 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "hello_world.js",
+  "dependencies": {
+    "webdriverio": "^4.1.1"
+  },
+  "author": "Santiago Blanco Ventas",
+  "license": "MIT"
+}
