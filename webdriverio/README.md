@@ -10,6 +10,8 @@ Install dependencies
 
 npm install
 
+npm install wdio-mocha-framework
+
 selenium-standalone install
 
 
