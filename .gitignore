@@ -2,3 +2,7 @@ node_modules/
 README.html
 *.log
 *.swp
+__pycache__
+python/flask/.activate
+python/flask/vep3
+python/flask/.vscode
