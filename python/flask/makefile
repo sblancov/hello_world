@@ -1,3 +1,7 @@
+clean:
+	rm -rf __pycache__
+	rm -rf api/__pycache__
+
 run:
 	python api/api.py
 
