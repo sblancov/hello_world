@@ -7,3 +7,6 @@ run:
 
 run-uwsgi:
 	uwsgi --socket 0.0.0.0:8000 --protocol=http -w wsgi:app
+
+run-docker:
+	docker run -d  --publish 8000:8000 sblancov84/helloworldflask:1.4
