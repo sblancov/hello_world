@@ -1,6 +1,10 @@
+install:
+	pip install -r requirements.txt
+
 clean:
 	rm -rf __pycache__
 	# find . -name __pycache__ -exec rm -rf {} \;
+	find . -name *.pyc -exec rm -rf {} \;
 
 # This command probably needs root permission
 start-rabbitmq:
