@@ -1,10 +1,9 @@
 from celery import Celery
 
 
-app = Celery()
+app = Celery('tasks', broker='amqp://localhost')
 
 
 @app.task
 def sum(x, y):
-    print(x + y)
     return x + y
