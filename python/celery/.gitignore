@@ -1,2 +1,4 @@
 vep3/
 .vscode
+*.pyc
+.activate
